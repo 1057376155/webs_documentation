@@ -34,6 +34,23 @@ webs 是一个运行前端代码(html/css/js)的 app ，运行的容器是 wkweb
 }
 ```
 
+## 使用 
+在 vue 中调用方法
 
+```javascript
+window.$G.onCreated(()=>{
+    console.log("onCreate");
+})
+```
+
+在 普通的 html 中调用方法
+
+```javascript
+$G.onCreated(()=>{
+    console.log("onCreate");
+})
+```
+
+更多的API , 请查看 ApiDocuments
 
 
