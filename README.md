@@ -51,6 +51,6 @@ $G.onCreated(()=>{
 })
 ```
 
-更多的API , 请查看 ApiDocuments
+更多的API , 请查看 [ApiDocuments](./ApiDocuments.md)
 
 
