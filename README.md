@@ -19,7 +19,7 @@ webs 是一个运行前端代码(html/css/js)的 app ，运行的容器是 wkweb
 
 >ps: icon.png 这个文件是作为 webs 程序的图标显示，如果没有一个文件的话将显示一个默认的图标
 
-
+查看例子 [clock](https://github.com/1057376155/webApp_clock)
 ### webApp.json 文件说明
 
 ```json
