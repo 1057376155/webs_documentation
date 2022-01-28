@@ -300,3 +300,36 @@
 
 ---
 
+
+## setScreenOrientation
+
+### 设置屏幕的方向
+
+```javascript 
+ 
+            // portrait 竖屏 
+            // portraitUpsideDown 竖屏-相反方法 // 这个相仿方向不是固定的
+            // landscapeLeft 横屏方向 - 左边
+            // landscapeRight 竖屏  - 右边
+            // all 所有方向 
+            $G.setScreenOrientation({
+                orientation:"portrait",
+                success(info){
+                    console.log("info)
+                },
+                fail(err){
+                    console.log(err)
+                },
+            });
+         
+ ```
+
+### 参数
+> ##### orientation 说明 方向 
+
+
+### 返回值
+> ##### 无返回值
+
+---
+

@@ -26,7 +26,9 @@ webs 是一个运行前端代码(html/css/js)的 app ，运行的容器是 wkweb
 {
     "name":"名称", // 程序的名称
     "version":"1.0.3", // 程序的版本
-    "miniVersion":102, // 程序的最低运行版本
+    "miniVersion":102, // (弃用) 程序的最低运行版本
+    "jsRuntimeVersion":102, // 程序的js库最低运行版本
+    "miniAppVersion":"1.1.1",// 程序的app版本最低运行版本
     "author":"COR", // 程序的作者
     "appid":"888888B8-8888-8888-8888-B88888888888" 
     // 这个是程序的id,可以在 webs 开发者服务中获取
